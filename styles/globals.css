@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+  @font-face {
+    font-family: Lilita;
+    src: url(../public/fonts/Lilita_One/LilitaOne-Regular.ttf);
+  }
+  @font-face {
+    font-family: Roboto;
+    src: url(../public/fonts/Roboto/Roboto-Regular.ttf);
+  }
+  @font-face {
+    font-family: RobotoMedium;
+    src: url(../public/fonts/Roboto/Roboto-Medium.ttf);
+  }
+  @font-face {
+    font-family: RobotoBold;
+    src: url(../public/fonts/Roboto/Roboto-Bold.ttf);
+  }
+}
+
 * {
   box-sizing: border-box;
   padding: 0;

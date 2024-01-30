@@ -1,20 +1,18 @@
 import React, { PropsWithChildren } from "react";
 import { PiShoppingBagOpenFill } from "react-icons/pi";
-import { GoHomeFill } from "react-icons/go";
+import SidebarCart from "./SidebarCart";
+
 
 const Sidebar = ({ children }: PropsWithChildren): React.ReactNode => {
   return (
-    <div className="flex min-h-screen">
-      <aside className="w-[15%] p-1 bg-white">
+    <div className="flex h-[100vh]">
+      <div className="w-[15%] p-1 h-full bg-white">
         <div className="p-2 flex items-center gap-1 mb-12">
-          <PiShoppingBagOpenFill size={28} className="fill-sky-700" />
-          <span className="font-bold text-sky-700">DASBOARD ADMIN</span>
+          <PiShoppingBagOpenFill size={28} className="fill-second" />
+          <span className="font-Lilita text-black tracking-tight">DASHBOARD ADMIN</span>
         </div>
-        <div className="px-2 flex items-center justify-start text-sm gap-2 p-2 rounded-md bg-sky-700">
-          <GoHomeFill size={20} className="fill-white"/>
-          <span className="text-white">Dashboard</span>
-        </div>
-      </aside>
+        <SidebarCart/>
+      </div>
       <main className="w-[85%]">{children}</main>
     </div>
   );

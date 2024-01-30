@@ -8,8 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage:{
-        "gradiant-main":"linear-gradient(90deg, rgba(24,24,36,1) 0%, rgba(9,24,121,1) 100%)"
+      colors: {
+        "first": "#ffffff",
+        "second": "#0369a1",
+      },
+      fontFamily:{
+        "Lilita":"Lilita",
+        "Roboto" : "Roboto",
+        "RobotoMedium":"RobotoMedium",
+        "RobotoBold":"RobotoBold"
       }
     },
   },
