@@ -26,7 +26,7 @@ const Header: React.FC = () => {
         </div>
         <div className="relative">
           <IoNotifications className="cursor-pointer text-xl sm:text-2xl fill-second" />
-          <span className="absolute -top-1 right-0 bg-red-600 rounded-full px-1 text-xs flex items-center justify-center">2</span>
+          <span className="absolute -top-1 right-0 text-first bg-red-600 rounded-full px-1 text-xs flex items-center justify-center">2</span>
         </div>
         <IoMdSettings className="cursor-pointer text-xl sm:text-2xl fill-second" />
       </div>
