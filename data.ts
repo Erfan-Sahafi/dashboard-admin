@@ -73,6 +73,37 @@ export const allData:allDataType = [
   },
 ];
 
+export const visitData:visitDataType = [
+  {
+    name: "Sat",
+    visit : 500,
+  },
+  {
+    name: "Sun",
+    visit : 350,
+  },
+  {
+    name: "Mon",
+    visit : 283,
+  },
+  {
+    name: "Tue",
+    visit : 195,
+  },
+  {
+    name: "Wed",
+    visit : 437,
+  },
+  {
+    name: "Thu",
+    visit : 385,
+  },
+  {
+    name: "Fri",
+    visit : 470,
+  },
+]
+
 export const allUsers:userType = [
   {
     id: 1,

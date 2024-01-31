@@ -14,3 +14,8 @@ type allDataType = {
   lastYear: number;
   amt: number;
 }[];
+
+type visitDataType = {
+    name : string,
+    visit: number
+}[]
