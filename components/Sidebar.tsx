@@ -5,8 +5,8 @@ import SidebarCart from "./SidebarCart";
 
 const Sidebar = ({ children }: PropsWithChildren): React.ReactNode => {
   return (
-    <div className="flex h-[100vh]">
-      <div className="w-[15%] p-1 h-full bg-white">
+    <div className="flex min-h-screen">
+      <div className="w-[15%] p-1 min-h-screen bg-white">
         <div className="p-2 flex items-center justify-center md:justify-start gap-1 mb-12">
           <PiShoppingBagOpenFill size={28} className="fill-second" />
           <span className="font-Lilita text-black tracking-tight hidden md:block">PANEL ADMIN</span>

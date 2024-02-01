@@ -1,4 +1,4 @@
-export const allData:allDataType = [
+export const allData: allDataType = [
   {
     name: "Jan",
     newYear: 4000,
@@ -73,126 +73,213 @@ export const allData:allDataType = [
   },
 ];
 
-export const visitData:visitDataType = [
+export const visitData: visitDataType = [
   {
     name: "Sat",
-    visit : 500,
+    visit: 500,
   },
   {
     name: "Sun",
-    visit : 350,
+    visit: 350,
   },
   {
     name: "Mon",
-    visit : 283,
+    visit: 283,
   },
   {
     name: "Tue",
-    visit : 195,
+    visit: 195,
   },
   {
     name: "Wed",
-    visit : 437,
+    visit: 437,
   },
   {
     name: "Thu",
-    visit : 385,
+    visit: 385,
   },
   {
     name: "Fri",
-    visit : 470,
+    visit: 470,
   },
-]
+];
 
-export const allUsers:userType = [
+export const allUsers: userType = [
   {
     id: 1,
     name: "Leanne Graham",
     username: "Bret",
     email: "Sincere@april.biz",
-    purchases:10,
-    active:true,
-    icon: "up"
+    purchases: 10,
+    active: true,
+    icon: "up",
   },
   {
     id: 2,
     name: "Ervin Howell",
     username: "Antonette",
     email: "Shanna@melissa.tv",
-    purchases:12,
-    active:true,
-    icon: "up"
+    purchases: 12,
+    active: true,
+    icon: "up",
   },
   {
     id: 3,
     name: "Clementine Bauch",
     username: "Samantha",
     email: "Nathan@yesenia.net",
-    purchases:5,
-    active:false,
-    icon: "down"
+    purchases: 5,
+    active: false,
+    icon: "down",
   },
   {
     id: 4,
     name: "Patricia Lebsack",
     username: "Karianne",
     email: "Julianne.OConner@kory.org",
-    purchases:7,
-    active:true,
-    icon: "up"
+    purchases: 7,
+    active: true,
+    icon: "up",
   },
   {
     id: 5,
     name: "Chelsey Dietrich",
     username: "Kamren",
     email: "Lucio_Hettinger@annie.ca",
-    purchases:11,
-    active:true,
-    icon: "up"
+    purchases: 11,
+    active: true,
+    icon: "up",
   },
   {
     id: 6,
     name: "Mrs. Dennis Schulist",
     username: "Leopoldo_Corkery",
     email: "Karley_Dach@jasper.info",
-    purchases:9,
-    active:true,
-    icon: "up"
+    purchases: 9,
+    active: true,
+    icon: "up",
   },
   {
     id: 7,
     name: "Kurtis Weissnat",
     username: "Elwyn.Skiles",
     email: "Telly.Hoeger@billy.biz",
-    purchases:1,
-    active:false,
-    icon: "down"
+    purchases: 1,
+    active: false,
+    icon: "down",
   },
   {
     id: 8,
     name: "Nicholas Runolfsdottir V",
     username: "Maxime_Nienow",
     email: "Sherwood@rosamond.me",
-    purchases:8,
-    active:true,
-    icon: "down"
+    purchases: 8,
+    active: true,
+    icon: "down",
   },
   {
     id: 9,
     name: "Glenna Reichert",
     username: "Delphine",
     email: "Chaim_McDermott@dana.io",
-    purchases:4,
-    active:true,
-    icon: "up"
+    purchases: 4,
+    active: true,
+    icon: "up",
   },
   {
     id: 10,
     name: "Clementina DuBuque",
     username: "Moriah.Stanton",
     email: "Rey.Padberg@karina.biz",
-    purchases:1,
-    active:false,
-    icon: "down"
+    purchases: 1,
+    active: false,
+    icon: "down",
+  },
+];
+
+export const productsData: productType = [
+  {
+    id: 1,
+    title: "Asus TUF Dash F15",
+    price: 65_700_000,
+    img: "./images/Tuf.jpg",
+    salesNumber: 300,
+  },
+  {
+    id: 2,
+    title: "MacBook Pro",
+    price: 185_000_000,
+    img: "./images/mac.jpg",
+    salesNumber: 200,
+  },
+  {
+    id: 3,
+    title: "Lenovo IdeaPad Gaming",
+    price: 50_300_000,
+    img: "./images/lenovo.jpg",
+    salesNumber: 120,
+  },
+  {
+    id: 4,
+    title: "Asus ROG Zephyrus G15",
+    price: 73_800_000,
+    img: "./images/asus.jpg",
+    salesNumber: 50,
+  },
+  {
+    id: 5,
+    title: "iPhone 13 Pro Max",
+    price: 92_000_000,
+    img: "./images/iphone.jpeg",
+    salesNumber: 250,
+  },
+  {
+    id: 6,
+    title: "Samsung A52",
+    price: 12_000_000,
+    img: "./images/a52.jpg",
+    salesNumber: 80,
+  },
+  {
+    id: 7,
+    title: "Xiaomi Redmi Note 11 pro",
+    price: 9_450_000,
+    img: "./images/note11.jpg",
+    salesNumber: 60,
+  },
+  {
+    id: 8,
+    title: "POCO X3 Pro",
+    price: 10_000_000,
+    img: "./images/poco.jpg",
+    salesNumber: 150,
+  },
+  {
+    id: 9,
+    title: "ROG DELTA S",
+    price: 9_900_000,
+    img: "./images/rog.jpg",
+    salesNumber: 78,
+  },
+  {
+    id: 10,
+    title: "R11",
+    price: 799_000,
+    img: "./images/R11.jpg",
+    salesNumber: 95,
+  },
+  {
+    id: 11,
+    title: "K19",
+    price: 550_000,
+    img: "./images/k19.jpg",
+    salesNumber: 10,
+  },
+  {
+    id: 12,
+    title: "X9",
+    price: 480_000,
+    img: "./images/x9.jpg",
+    salesNumber: 59,
   },
 ];

@@ -16,6 +16,21 @@ type allDataType = {
 }[];
 
 type visitDataType = {
-    name : string,
-    visit: number
-}[]
+  name: string;
+  visit: number;
+}[];
+
+type productType = {
+  id: number;
+  title: string;
+  price: number;
+  img: string;
+  salesNumber: number;
+}[];
+
+type detailsType = {
+  numbers:number,
+  title:string,
+  icon:JSX.Element
+  percent:string
+}

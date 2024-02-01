@@ -4,22 +4,26 @@ import {
   BarChart,
   CartesianGrid,
   Legend,
+  ResponsiveContainer,
   Tooltip,
   XAxis,
   YAxis,
 } from "recharts";
 import { visitData } from "@/data";
 
+
 const VisitChart: React.FC = () => {
   return (
-    <BarChart width={730} height={250} data={visitData}>
-      <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="name" />
-      <YAxis />
-      <Tooltip />
-      <Legend />
-      <Bar dataKey="visit" fill="#8884d8" />
-    </BarChart>
+    <ResponsiveContainer width="100%" height={250}>
+      <BarChart data={visitData}>
+        <CartesianGrid strokeDasharray="1 1" />
+        <XAxis dataKey="name" />
+        <YAxis />
+        <Tooltip />
+        <Legend />
+        <Bar dataKey="visit" fill="#0ea5e9" barSize={20} />
+      </BarChart>
+    </ResponsiveContainer>
   );
 };
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   Area,
   AreaChart,
@@ -13,10 +13,16 @@ import {
 import { allData } from "@/data";
 
 const Revenue: React.FC = () => {
+  const [revenueData, setRevenueData] = useState<allDataType>([]);
+
+  useEffect(() => {
+    setRevenueData(allData);
+  }, []);
+
   return (
     <ResponsiveContainer width="100%" height={250}>
       <AreaChart
-        data={allData}
+        data={revenueData}
         margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
       >
         <defs>
