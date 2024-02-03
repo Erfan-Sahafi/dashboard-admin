@@ -1,5 +1,4 @@
 import DetailseCart from "@/components/DetailseCart";
-import Header from "@/components/Header";
 import RecentUsers from "@/components/RecentUsers";
 import Revenue from "@/components/Revenue";
 import TopProducts from "@/components/TopProducts";
@@ -12,7 +11,6 @@ import { TbBrandCashapp } from "react-icons/tb";
 export default function Home() {
   return (
     <main>
-      <Header />
       <div className="p-2 flex gap-2 flex-col md:flex-row h-full">
         <div className="w-full md:w-[40%] grid grid-cols-1 gap-1 sm:grid-cols-2">
           <DetailseCart

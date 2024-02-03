@@ -10,7 +10,7 @@ const DetailseCart: React.FC<detailsType> = (props) => {
           {props.icon}
         </div>
         <div>
-          <span className="font-RobotoBold text-2xl">{props.numbers}</span>
+          <span className="font-RobotoBold text-gray-800 text-2xl">{props.numbers}</span>
         </div>
         <div className="flex justify-between text-[13px]">
           <i className="font-RobotoBold text-green-500">{props.percent}</i>
